@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart Clone</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <a href="#" class="logo">
+                <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png"
+                    alt="Flipkart Logo">
+                <span>Explore <em>Plus</em></span>
+            </a>
+
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products, brands and more" aria-label="Search products">
+                <button aria-label="Search"><i class="fas fa-search"></i></button>
+            </div>
+
+            <div class="login-container">
+                <a href="login.html"><button class="header__login">Login</button></a>
+                <div class="login-dropdown">
+                    <div class="dropdown-header">
+                        <div class="dropdown-title">New Customer?</div>
+                        <a href="#" class="signup-link">Sign Up</a>
+                    </div>
+                    <div class="dropdown-divider"></div>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item">
+                            <i class="fas fa-user"></i>
+                            <span>My Profile</span>
+                        </li>
+                        <li class="dropdown-item">
+                            <i class="fas fa-shopping-bag"></i>
+                            <span>Orders</span>
+                        </li>
+                        <li class="dropdown-item">
+                            <i class="fas fa-heart"></i>
+                            <span>Wishlist</span>
+                        </li>
+                        <li class="dropdown-item">
+                            <i class="fas fa-award"></i>
+                            <span>Rewards</span>
+                        </li>
+                        <li class="dropdown-item">
+                            <i class="fas fa-gift"></i>
+                            <span>Gift Cards</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <a href="#" class="header-link">Become a Seller</a>
+
+            <a href="#" class="header-link">More <i class="fas fa-chevron-down"></i></a>
+
+            <a href="#" class="cart">
+                <i class="fas fa-shopping-cart"></i>
+                Cart
+            </a>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="#" class="nav-item">
+                <img src="https://rukminim1.flixcart.com/flap/128/128/image/29327f40e9c4d26b.png?q=100" alt="Grocery"
+                    loading="lazy">
+                <span>Grocery</span>
+            </a>
+            <a href="#" class="nav-item">
+                <img src="https://rukminim1.flixcart.com/flap/128/128/image/22fddf3c7da4c4f4.png?q=100" alt="Mobiles"
+                    loading="lazy">
+                <span>Mobiles</span>
+            </a>
+            <a href="#" class="nav-item">
+                <img src="https://rukminim1.flixcart.com/flap/128/128/image/c12afc017e6f24cb.png?q=100" alt="Fashion"
+                    loading="lazy">
+                <span>Fashion</span>
+            </a>
+            <a href="#" class="nav-item">
+                <img src="https://rukminim1.flixcart.com/flap/128/128/image/69c6589653afdb9a.png?q=100"
+                    alt="Electronics" loading="lazy">
+                <span>Electronics</span>
+            </a>
+            <a href="#" class="nav-item">
+                <img src="https://rukminim1.flixcart.com/flap/128/128/image/ab7e2b022a4587dd.jpg?q=100" alt="Home"
+                    loading="lazy">
+                <span>Home</span>
+            </a>
+            <a href="#" class="nav-item">
+                <img src="https://rukminim1.flixcart.com/flap/128/128/image/0ff199d1bd27eb98.png?q=100" alt="Appliances"
+                    loading="lazy">
+                <span>Appliances</span>
+            </a>
+            <a href="#" class="nav-item">
+                <img src="https://rukminim1.flixcart.com/flap/128/128/image/71050627a56b4693.png?q=100" alt="Travel"
+                    loading="lazy">
+                <span>Travel</span>
+            </a>
+            <a href="#" class="nav-item">
+                <img src="https://rukminim1.flixcart.com/flap/128/128/image/dff3f7adcf3a90c6.png?q=100" alt="Toys"
+                    loading="lazy">
+                <span>Toys & More</span>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Banner Container -->
+    <div class="flipkart-banner">
+        <!-- Slides Container (holds all slides) -->
+        <div class="banner-slides">
+            <!-- Slide 1 (Active by default) -->
+            <div class="slide active">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/3240/540/image/25e88a23319185b4.jpeg?q=60"
+                    alt="Offer 1" loading="lazy">
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/3240/540/image/69fb27ef573c8ee2.jpeg?q=60"
+                    alt="Offer 2" loading="lazy">
+            </div>
+            <!-- Slide 3 -->
+            <div class="slide">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/3240/540/image/46968ed9b4d7c94b.jpg?q=60"
+                    alt="Offer 3" loading="lazy">
+            </div>
+            <!-- Optional Slide 4 -->
+            <div class="slide">
+                <img src="https://rukminim2.flixcart.com/fk-p-flap/3240/540/image/17c228994866f484.jpeg?q=60"
+                    alt="Offer 4" loading="lazy">
+            </div>
+        </div>++
+
+        <!-- Navigation Dots -->
+        <div class="slider-dots">
+            <span class="dot active" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+            <!-- Optional 4th Dot -->
+            <span class="dot" data-index="3"></span>
+        </div>
+
+        <!-- Navigation Arrows -->
+        <button class="slider-arrow prev-arrow">‹</button>
+        <button class="slider-arrow next-arrow">›</button>
+    </div>
+    </section>
+    <!-- Products Section -->
+    <div class="products-section">
+        <div class="section-title">
+            <h2>Deals of the Day</h2>
+            <button class="view-all-btn">VIEW ALL</button>
+        </div>
+        <div class="products">
+            <div class="product-card" tabindex="0">
+                <img src="https://th.bing.com/th/id/OIP.hWlPWnYHj6pcURpTk_4B0gHaJz?w=127&h=180&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3"
+                    alt="iPhone 14" loading="lazy">
+                <div class="product-title">APPLE iPhone 14 (Blue, 128 GB)</div>
+                <div class="product-price">₹58,999</div>
+                <div class="product-desc">Extra ₹6000 Off</div>
+            </div>
+            <div class="product-card" tabindex="0">
+                <img src="https://th.bing.com/th/id/OIP.7OX8-ARL2JdyJ19xBS4X3gHaE7?w=306&h=203&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3"
+                    alt="Laptop" loading="lazy">
+                <div class="product-title">HP Pavilion Ryzen 5 Hexa Core</div>
+                <div class="product-price">₹54,990</div>
+                <div class="product-desc">Extra ₹4000 Off</div>
+            </div>
+            <div class="product-card" tabindex="0">
+                <img src="https://th.bing.com/th/id/OIP.Jn0BmMm2jAXz78EvsJ-WBwAAAA?w=255&h=180&c=7&r=0&o=7&dpr=1.1&pid=1.7&rm=3"
+                    alt="TV" loading="lazy">
+                <div class="product-title">Mi 5X 108 cm (43 inch) Ultra HD</div>
+                <div class="product-price">₹26,999</div>
+                <div class="product-desc">Just ₹22,999 after discount</div>
+            </div>
+            <div class="product-card" tabindex="0">
+                <img src="data:image/jpeg;base64,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"
+                    alt="Washing Machine" loading="lazy">
+                <div class="product-title">SAMSUNG 6.5 kg Fully Automatic</div>
+                <div class="product-price">₹17,490</div>
+                <div class="product-desc">Extra ₹3000 Off</div>
+            </div>
+            <div class="product-card" tabindex="0">
+                <img src="https://rukminim1.flixcart.com/image/312/312/kp5sya80/screen-guard/tempered-glass/o/v/n/apple-macbook-air-m1-13-3-inch-lightwings-original-imag3gh5xftgbpg3.jpeg?q=70"
+                    alt="Accessories" loading="lazy">
+                <div class="product-title">Macbook Air M1 Tempered Glass</div>
+                <div class="product-price">₹499</div>
+                <div class="product-desc">60% off</div>
+            </div>
+            <div class="product-card" tabindex="0">
+                <img src="https://rukminim2.flixcart.com/image/704/844/xif0q/shoe/l/e/w/9-4012-kriton-white-black-original-imaha2zpydr6u6zy.jpeg?q=90&crop=false"
+                    alt="Shoes" loading="lazy">
+                <div class="product-title">TRM White Running Shoes</div>
+                <div class="product-price">₹1,099</div>
+                <div class="product-desc">Extra ₹300 Off</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>About</h3>
+                <ul>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Flipkart Stories</a></li>
+                    <li><a href="#">Press</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Help</h3>
+                <ul>
+                    <li><a href="#">Payments</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Cancellation & Returns</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Report Infringement</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Policy</h3>
+                <ul>
+                    <li><a href="#">Return Policy</a></li>
+                    <li><a href="#">Terms Of Use</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Social</h3>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            © 2023 Flipkart Clone. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            // Product card interaction
+            const productCards = document.querySelectorAll('.product-card');
+
+            productCards.forEach(card => {
+                // Keyboard accessibility
+                card.addEventListener('keypress', function (e) {
+                    if (e.key === 'Enter' || e.key === ' ') {
+                        this.click();
+                    }
+                });
+            });
+
+            // Login button click
+            const loginBtn = document.querySelector('.login-btn');
+            loginBtn.addEventListener('click', function () {
+                // In a real app, this would redirect to login page
+                console.log('Login button clicked');
+            });
+
+            // Search functionality
+            const searchBar = document.querySelector('.search-bar input');
+            const searchBtn = document.querySelector('.search-bar button');
+
+            function performSearch() {
+                const searchTerm = searchBar.value.trim();
+                if (searchTerm !== '') {
+                    console.log(`Searching for: ${searchTerm}`);
+                    // In a real app, this would trigger a search request
+                } else {
+                    searchBar.focus();
+                }
+            }
+
+            searchBtn.addEventListener('click', performSearch);
+
+            // Allow search on Enter key
+            searchBar.addEventListener('keypress', function (e) {
+                if (e.key === 'Enter') {
+                    performSearch();
+                }
+            });
+
+            // View all button
+            const viewAllBtn = document.querySelector('.view-all-btn');
+            viewAllBtn.addEventListener('click', function () {
+                console.log('View all products');
+                // In a real app, this would show all products
+            });
+        });
+        document.addEventListener('DOMContentLoaded', function () {
+            const slides = document.querySelector('.banner-slides');
+            const dots = document.querySelectorAll('.dot');
+            const prevArrow = document.querySelector('.prev-arrow');
+            const nextArrow = document.querySelector('.next-arrow');
+            const totalSlides = document.querySelectorAll('.slide').length;
+            let currentIndex = 0;
+            let slideInterval;
+
+            // Auto-slide function
+            function startSlider() {
+                slideInterval = setInterval(() => {
+                    currentIndex = (currentIndex + 1) % totalSlides;
+                    updateSlider();
+                }, 2000); // 5-second interval
+            }
+
+            // Update slide position and dots
+            function updateSlider() {
+                slides.style.transform = `translateX(-${currentIndex * 100}%)`;
+                dots.forEach(dot => dot.classList.remove('active'));
+                dots[currentIndex].classList.add('active');
+            }
+
+            // Navigation arrows
+            nextArrow.addEventListener('click', () => {
+                currentIndex = (currentIndex + 1) % totalSlides;
+                resetInterval();
+            });
+
+            prevArrow.addEventListener('click', () => {
+                currentIndex = (currentIndex - 1 + totalSlides) % totalSlides;
+                resetInterval();
+            });
+
+            // Dot navigation
+            dots.forEach(dot => {
+                dot.addEventListener('click', () => {
+                    currentIndex = parseInt(dot.getAttribute('data-index'));
+                    resetInterval();
+                });
+            });
+
+            // Pause on hover
+            const banner = document.querySelector('.flipkart-banner');
+            banner.addEventListener('mouseenter', () => clearInterval(slideInterval));
+            banner.addEventListener('mouseleave', startSlider);
+
+            // Reset timer on manual navigation
+            function resetInterval() {
+                clearInterval(slideInterval);
+                updateSlider();
+                startSlider();
+            }
+
+            // Initialize
+            startSlider();
+        });
+    </script>
+</body>
+
+</html>
